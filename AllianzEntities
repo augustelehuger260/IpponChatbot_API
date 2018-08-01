@@ -1,0 +1,19 @@
+entity Travel {
+    countryArrival String,
+    departureDate LocalDate,
+    returnDate LocalDate,
+    travelerAge Integer,
+    stateDeparture String,
+    insuranceId Integer
+}
+
+entity InsurancePlan {
+	name String,
+    price Integer,
+    tripCancellation Integer,
+    emergencyTransportation Integer,
+    bagageLost Integer,
+    conciergeService Boolean
+}
+
+
