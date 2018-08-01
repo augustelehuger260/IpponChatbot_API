@@ -1,0 +1,40 @@
+{
+    "name": "InsurancePlan",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tripCancellation",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "emergencyTransportation",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "bagageLost",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "conciergeService",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180801142402",
+    "entityTableName": "insurance_plan",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "microserviceName": "insurance"
+}

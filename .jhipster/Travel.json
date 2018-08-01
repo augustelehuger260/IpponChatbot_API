@@ -1,0 +1,40 @@
+{
+    "name": "Travel",
+    "fields": [
+        {
+            "fieldName": "countryArrival",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "departureDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "returnDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "travelerAge",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "stateDeparture",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "insuranceId",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20180801142401",
+    "entityTableName": "travel",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "microserviceName": "insurance"
+}
